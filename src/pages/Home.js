@@ -2,26 +2,31 @@
 
 import React from "react";
 import "./Home.css";
-import TrendingItems from "../components/TrendingItems";
-import FeaturedItems from '../components/FeaturedItems';
-import featuredData from '../data/featuredData.json';
+import TrendingItems from "../components/trending/TrendingItems";
+import FeaturedItems from '../components/featured/FeaturedItems';
+import Fleek from '../components/Fleek/Fleek';
 
 const Home = () => {
   return (
     <div className="home">
       <div className="parallaxBg"></div>
-      {/* <div className="content">
+      {/* <div className="content">/
         <h1>Welcome to Clothing Store</h1>
         <p>Discover the latest trends in fashion.</p>
       </div> */}
      
-      <div className="trending-items-container">
+      <div className="home-items-container">
         <TrendingItems />
       </div>
 
-      <div className="featured-items-container">
-        <FeaturedItems data={featuredData} />
+      <div className="home-items-container">
+        <FeaturedItems />
       </div>
+
+      <div className="home-items-container">
+      <Fleek />
+      </div>
+      
     </div>
   );
 };

@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import ProductPage from "./pages/ProductPage";
 import ShoppingCartPage from "./pages/ShoppingCartPage";
 
+
 import "./App.css";
 
 const App = () => {

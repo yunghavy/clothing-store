@@ -4,9 +4,9 @@ import React from 'react';
 import './TrendingItems.css';
 import TrendingItem from './TrendingItem';
 
-import trendingItem1 from '../images/trending-shoe.jpg';
-import trendingItem2 from '../images/hoody.jpg';
-import trendingItem3 from '../images/trouser.jpg';
+import trendingItem1 from '../../images/trending-shoe.jpg';
+import trendingItem2 from '../../images/hoody.jpg';
+import trendingItem3 from '../../images/trouser.jpg';
 
 const TrendingItems = () => {
   return (
