@@ -1,0 +1,29 @@
+
+
+[
+    {
+      "name": "Nike Shoes",
+      "image": "featured1.jpg"
+    },
+    {
+      "name": "V-neck tshirts",
+      "image": "featured2.jpg"
+    },
+    {
+        "name": "Nike Shoes",
+        "image": "featured1.jpg"
+      },
+      {
+        "name": "V-neck tshirts",
+        "image": "featured2.jpg"
+      },
+      {
+        "name": "Nike Shoes",
+        "image": "featured1.jpg"
+      },
+      {
+        "name": "V-neck tshirts",
+        "image": "featured2.jpg"
+      }
+  ]
+  
