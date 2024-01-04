@@ -4,7 +4,9 @@
   padding: 2rem;
   text-align: left;
 }
-
+.trending-segment h2 {
+  color: #ff4500;
+}
 .trending-items {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));

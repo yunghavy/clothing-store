@@ -4,7 +4,9 @@
   padding: 2rem;
   text-align: left;
 }
-
+.featured-segment h2 {
+  color: #ff4500;
+}
 .featured-items {
   display: flex;
   flex-wrap: wrap;

@@ -3,6 +3,9 @@
   padding: 2rem;
   text-align: left;
 }
+.fleek-segment h2 {
+  color: #ff4500;
+}
 .slider {
   margin:0 15px;
   overflow:"hidden";

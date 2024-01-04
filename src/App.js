@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import ProductPage from "./pages/ProductPage";
 import ShoppingCartPage from "./pages/ShoppingCartPage";
-
+import Navbar from "./components/Navbar";
 
 import "./App.css";
 
@@ -14,6 +14,7 @@ const App = () => {
     <Router>
       <div className="app">
         <Header />
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<ProductPage />} />
