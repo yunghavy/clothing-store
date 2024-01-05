@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <Link to="/">Clothing Store</Link>
+        <Link to="/">CS</Link>
       </div>
       <div className={`nav ${isMenuOpen ? 'open' : ''}`}>
         <button className="menu-toggle" onClick={toggleMenu}>
