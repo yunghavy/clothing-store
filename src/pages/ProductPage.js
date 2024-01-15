@@ -1,10 +1,11 @@
 import React from 'react';
+import Products from '../components/ProductList';
 
 const ProductPage = () => {
   return (
-   <div>
-    <p className='text-black display-6'>This is the product page</p>
-   </div>
+   <>
+   < Products />
+   </>
   );
 };
 
