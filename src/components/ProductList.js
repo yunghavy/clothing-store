@@ -4,9 +4,9 @@ import './Product.css';
 const ProductPage = () => {
 
   const products = [
-    { id: 1, name: 'Men\'s T-Shirt', price: 30, imageUrl: 'url-to-your-image1.jpg' },
-    { id: 2, name: 'Men\'s Hoodie', price: 50, imageUrl: 'url-to-your-image2.jpg' },
-    { id: 3, name: 'Men\'s Shorts', price: 40, imageUrl: 'url-to-your-image3.jpg' },
+    { id: 1, name: 'Men\'s T-Shirt', price: 30, imageUrl: 'https://unsplash.com/photos/brown-long-sleeve-shirt-on-white-clothes-hanger-Fg15LdqpWrs' },
+    { id: 2, name: 'Men\'s Hoodie', price: 50, imageUrl: 'https://unsplash.com/photos/white-crew-neck-long-sleeve-shirt-7cERndkOyDw' },
+    { id: 3, name: 'Men\'s Shorts', price: 40, imageUrl: 'https://unsplash.com/photos/white-v-neck-shirt-on-brown-clothes-hanger-p8Drpg_duLw' },
   ];
 
   // State to manage the selected category filter
