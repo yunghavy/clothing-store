@@ -21,7 +21,9 @@
     align-items: center;
     z-index: 2;
   }
-  
+  .nav:hover {
+    text-decoration: wavy;
+  }
   .nav ul {
     list-style: none;
     display: flex;

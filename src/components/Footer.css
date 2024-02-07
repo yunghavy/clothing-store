@@ -1,7 +1,7 @@
 /* Footer.css */
 
 .footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -9,4 +9,7 @@
   padding: 10px;
   text-align: center;
   border-top: 2px solid #ddd;
+  p{
+    color: #200;
+  }
 }

@@ -6,7 +6,7 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer className="footer  ">
-      <p>This is the footer content.</p>
+      <p>2024 HavyStore , All rights reserved.</p>
     </footer>
   );
 };
